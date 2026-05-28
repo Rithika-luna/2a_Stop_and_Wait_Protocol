@@ -18,8 +18,7 @@ To write a python program to perform stop and wait protocol
 ## PROGRAM
 
 ```
-
-                     ## Client:
+ ## Server:       
 
 import socket
 
@@ -41,7 +40,8 @@ while True:
 
 conn.close()
 
-                      ## Server:
+   
+## Client:
 
 import socket
 
